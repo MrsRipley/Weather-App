@@ -1,0 +1,91 @@
+h1 {
+  color: #ff9a76;
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-size: 150px;
+}
+h2 {
+  color: #006a71;
+  font-size: 20px;
+  font-style: italic;
+  display: inline-block;
+  margin: 0 10px 0 0;
+}
+h3 {
+  color: #ff9a76;
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-style: 400;
+  font-size: 30px;
+  display: inline-block;
+  margin-top: 0;
+}
+img {
+  max-width: 50px;
+}
+
+.container {
+  background-color: #faf3dd;
+  padding: 10px 20px;
+  margin: 30px auto;
+  border-radius: 5px;
+  max-width: 60%;
+}
+.mainimage {
+  height: 20px;
+  display: inline-block;
+  margin: 0 10px 15px 0;
+}
+.mainTemp {
+  padding: 10px 30px 0 10px;
+  display: inline-block;
+  margin: 0;
+}
+.forecast {
+  background-color: #637373;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 20px;
+  line-height: 48px;
+  display: inline-block;
+  margin: 30px 30px 0 50px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.city-search {
+  width: 300px;
+  display: inline-block;
+  padding: 3px, 6px;
+  border: none;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  height: 40px;
+  outline: 0;
+  padding: 10px;
+}
+.btn-primary {
+  background-color: #68b0ab;
+  padding: 3px, 6px;
+  display: inline-block;
+  height: 40px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border: none;
+  border-radius: 5px;
+}
+.current {
+  background-color: #68b0ab;
+  color: #fff;
+  border-radius: 5px;
+  padding: 3px, 6px;
+  display: inline-block;
+  height: 40px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border: none;
+}
+.city {
+  margin: 20px 10px;
+}
+#units {
+  color: #ff9a76;
+  size: 150px;
+}
+#units:hover {
+  color: #fc4205;
+  size: 150px;
+}
