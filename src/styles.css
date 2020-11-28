@@ -7,7 +7,6 @@ h2 {
   color: #006a71;
   font-size: 20px;
   font-style: italic;
-  display: inline-block;
   margin: 0 10px 0 0;
 }
 h3 {
@@ -18,9 +17,6 @@ h3 {
   display: inline-block;
   margin-top: 0;
 }
-img {
-  max-width: 50px;
-}
 
 .container {
   background-color: #faf3dd;
@@ -29,15 +25,13 @@ img {
   border-radius: 5px;
   max-width: 60%;
 }
-.mainimage {
-  height: 20px;
+.temperature {
+  padding: 0px 5px 0 0;
   display: inline-block;
-  margin: 0 10px 15px 0;
 }
 .mainTemp {
   padding: 10px 30px 0 10px;
   display: inline-block;
-  margin: 0;
 }
 .forecast {
   background-color: #637373;
@@ -48,6 +42,13 @@ img {
   display: inline-block;
   margin: 30px 30px 0 50px;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.searchBar {
+  margin-bottom: 20px;
+  padding-left: 10px;
+}
+.cityName {
+  display: inline-block;
 }
 .city-search {
   width: 300px;
@@ -63,7 +64,7 @@ img {
   background-color: #68b0ab;
   padding: 3px, 6px;
   display: inline-block;
-  height: 40px;
+  height: 30px;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   border: none;
   border-radius: 5px;
@@ -74,20 +75,21 @@ img {
   border-radius: 5px;
   padding: 3px, 6px;
   display: inline-block;
-  height: 40px;
+  height: 30px;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   border: none;
 }
 .city {
-  margin: 20px 10px;
+  margin: 20px 10px 0px 5px;
 }
 .units {
   color: #ff9a76;
   size: 75px;
-  display: inline-block;
   font-family: "Fira Sans Condensed", sans-serif;
   font-size: 75px;
+  display: inline-block;
 }
 .units:hover {
   color: #fc4205;
+  display: inline-block;
 }
