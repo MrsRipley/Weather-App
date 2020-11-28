@@ -81,11 +81,13 @@ img {
 .city {
   margin: 20px 10px;
 }
-#units {
+.units {
   color: #ff9a76;
-  size: 150px;
+  size: 75px;
+  display: inline-block;
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-size: 75px;
 }
-#units:hover {
+.units:hover {
   color: #fc4205;
-  size: 150px;
 }
