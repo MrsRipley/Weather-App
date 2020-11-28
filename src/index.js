@@ -30,6 +30,7 @@ function displayWeatherCondition(response) {
   document.querySelector("#description").innerHTML =
     response.data.weather[0].main;
 }
+
 function searchCity(city) {
   let apiKey = "5f472b7acba333cd8a035ea85a0d4d4c";
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
@@ -38,8 +39,8 @@ function searchCity(city) {
 
 function handleSubmit(event) {
   event.preventDefault();
-  let city = document.querySelector("#city-input").value;
-  searchCity(city);
+  let city = document.querySelector("#city-input");
+  searchCity(city.value);
 }
 
 function searchLocation(position) {
@@ -53,8 +54,8 @@ function getCurrentLocation(event) {
   navigator.geolocation.getCurrentPosition(searchLocation);
 }
 
-let searchForm = document.querySelector("#search-form");
-searchForm.addEventListener("submit", handleSubmit);
+let form = document.querySelector("#search-form");
+form.addEventListener("Search", handleSubmit);
 
 let currentButton = document.querySelector("#current");
 currentButton.addEventListener("click", getCurrentLocation);

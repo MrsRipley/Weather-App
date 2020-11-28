@@ -17,7 +17,6 @@ h3 {
   display: inline-block;
   margin-top: 0;
 }
-
 .container {
   background-color: #faf3dd;
   padding: 10px 20px;
@@ -33,57 +32,34 @@ h3 {
   padding: 10px 30px 0 10px;
   display: inline-block;
 }
-.forecast {
-  background-color: #637373;
-  color: #fff;
-  border-radius: 5px;
-  padding: 10px 20px;
-  line-height: 48px;
-  display: inline-block;
-  margin: 30px 30px 0 50px;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-}
-.searchBar {
-  margin-bottom: 20px;
-  padding-left: 10px;
-}
+
 .cityName {
-  display: inline-block;
+  display: inline;
 }
 .city-search {
-  width: 300px;
-  display: inline-block;
   padding: 3px, 6px;
   border: none;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   height: 40px;
   outline: 0;
-  padding: 10px;
+  display: inline;
 }
-.city-input {
-  display: inline-block;
-}
+
 .btn-primary {
   background-color: #68b0ab;
-  padding: 3px, 6px;
-  display: inline-block;
   height: 30px;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   border: none;
   border-radius: 5px;
 }
-
 .current {
   background-color: #68b0ab;
   color: #fff;
   border-radius: 5px;
-  padding: 3px, 6px;
-  display: inline-block;
   height: 30px;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   border: none;
 }
-
 .units {
   color: #ff9a76;
   size: 75px;
@@ -95,7 +71,6 @@ h3 {
   color: #fc4205;
   display: inline-block;
 }
-
 .btn-primary:hover {
   background-color: #a3ddd9;
 }

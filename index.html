@@ -35,58 +35,19 @@
         </h2>
       </div>
 
-      <div class="forecast">
-        <strong>5 Day Forecast</strong>
-        <div class="row">
-          <div class="col">Monday</div>
-          <div class="col">32°</div>
-          <div class="col"><img src="" alt="" /></div>
-        </div>
-        <div class="row">
-          <div class="col">Tuesday</div>
-          <div class="col">32°</div>
-          <div class="col">
-            <img src="" alt="" />
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">Wednesday</div>
-          <div class="col">32°</div>
-          <div class="col">
-            <img src="" alt="" />
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">Thursday</div>
-          <div class="col">32°</div>
-          <div class="col">
-            <img src="" alt="" />
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">Friday</div>
-          <div class="col">32°</div>
-          <div class="col">
-            <img src="" alt="" />
-          </div>
-        </div>
-      </div>
-
       <div class="searchBar">
-        <h2>Current city:</h2>
         <h3 id="cityName"></h3>
         <form class="search-form" id="search-form">
-          <input
-            id="city-input"
-            type="text"
-            placeholder="search for your city"
-          />
-          <button type="submit" class="btn-primary">Submit</button>
-          <button type="button" class="current" id="current">
-            Current Location
-          </button>
+              <input
+                type="search"
+                placeholder="search for a city"
+                class="city-search"
+                id="city-input"
+                autocomplete="off"
+              />
+            <button type="submit" class="btn-primary">Search</button>
+            <button type="button" class="current" id="current">Current Location</button>
         </form>
-      </div>
     </div>
 
     <script src="src/index.js"></script>
