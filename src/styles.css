@@ -60,6 +60,9 @@ h3 {
   outline: 0;
   padding: 10px;
 }
+.city-input {
+  display: inline-block;
+}
 .btn-primary {
   background-color: #68b0ab;
   padding: 3px, 6px;
@@ -69,6 +72,7 @@ h3 {
   border: none;
   border-radius: 5px;
 }
+
 .current {
   background-color: #68b0ab;
   color: #fff;
@@ -79,9 +83,7 @@ h3 {
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   border: none;
 }
-.city {
-  margin: 20px 10px 0px 5px;
-}
+
 .units {
   color: #ff9a76;
   size: 75px;
@@ -92,4 +94,11 @@ h3 {
 .units:hover {
   color: #fc4205;
   display: inline-block;
+}
+
+.btn-primary:hover {
+  background-color: #a3ddd9;
+}
+.current:hover {
+  background-color: #a3ddd9;
 }
