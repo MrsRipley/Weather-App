@@ -28,21 +28,18 @@ h3 {
   padding: 0px 5px 0 0;
   display: inline-block;
 }
+
 .mainTemp {
   padding: 10px 30px 0 10px;
   display: inline-block;
 }
 
-.cityName {
-  display: inline;
-}
 .city-search {
   padding: 3px, 6px;
   border: none;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   height: 40px;
   outline: 0;
-  display: inline;
 }
 
 .btn-primary {
@@ -60,16 +57,25 @@ h3 {
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   border: none;
 }
-.units {
+.celsius-link {
   color: #ff9a76;
   size: 75px;
   font-family: "Fira Sans Condensed", sans-serif;
   font-size: 75px;
   display: inline-block;
 }
-.units:hover {
+.celsius-link:hover {
   color: #fc4205;
+}
+.fahrenheit-link {
+  color: #ff9a76;
+  size: 75px;
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-size: 75px;
   display: inline-block;
+}
+.fahrenheit-link:hover {
+  color: #fc4205;
 }
 .btn-primary:hover {
   background-color: #a3ddd9;
