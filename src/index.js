@@ -51,7 +51,19 @@ function searchCity(city) {
   axios.get(apiUrl).then(displayForecast);
 }
 function displayForecast(response) {
+  letforecastElement = document.querySelector("#forecast");
   console.log(response.data);
+  forecastElement.innerHTML = `
+<div class="col-2">
+<h3>
+12:00
+</h3>
+<img src="https://ssl.gstatic.com/onebox/weather/48/rain_s_cloudy.png" alt=""/>
+<div class="weather-forecast-temperature">
+<strong>16</strong> 15°
+</div>
+</div>
+`;
 }
 
 function handleSubmit(event) {
