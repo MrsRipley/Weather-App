@@ -32,75 +32,52 @@ h3 {
 
 .container {
   background-color: #faf6eb;
-
   padding: 10px 20px;
-
   margin: 30px auto;
-
   border-radius: 5px;
-
   max-width: 60%;
 }
 
 .temperature {
   padding: 0px 5px 0 0;
-
   display: inline-block;
 }
 
 .mainTemp {
   padding: 10px 30px 0 10px;
-
   display: inline-block;
 }
 
 .city-search {
   padding: 3px, 6px;
-
   border: none;
-
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-
   height: 40px;
-
   outline: 0;
 }
 
 .btn-primary {
   background-color: #68b0ab;
-
   height: 30px;
-
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-
   border: none;
-
   border-radius: 5px;
 }
 
 .current {
   background-color: #68b0ab;
-
   color: #fff;
-
   border-radius: 5px;
-
   height: 30px;
-
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-
   border: none;
 }
 
 .celsiuslink {
   color: #ff9a76;
-
   size: 75px;
-
   font-family: "Fira Sans Condensed", sans-serif;
-
   font-size: 75px;
-
   display: inline-block;
 }
 
@@ -108,15 +85,11 @@ h3 {
   color: #fc4205;
 }
 
-.fahrenheitlink {
+#fahrenheitlink {
   color: #ff9a76;
-
   size: 75px;
-
   font-family: "Fira Sans Condensed", sans-serif;
-
   font-size: 75px;
-
   display: inline-block;
 }
 
@@ -126,18 +99,17 @@ h3 {
 
 .btn-primary:hover {
   background-color: #a3ddd9;
+  border: none;
 }
 
 .current:hover {
   background-color: #a3ddd9;
+  border: none;
 }
 
-.weather-forecast img {
+.forecast img {
   display: block;
-
   margin: 0 auto;
-
   height: 48px;
-
   width: 48px;
 }
