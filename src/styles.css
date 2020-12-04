@@ -91,17 +91,22 @@ h3 {
   border: none;
 }
 
-#col-2 {
-  padding: 0;
-}
 #forecast {
-  background-color: #68b0ab;
-  border-radius: 3px;
+  margin: 20px 0;
 }
 
 #forecast img {
   display: block;
+  margin: 0 auto;
   height: 50px;
   width: 50px;
   margin: 0;
+}
+#forecast h3 {
+  font-size: 20px;
+}
+#forecast weather-forecast-temperature {
+  display: block;
+  margin: 0 auto;
+  font-family: "Fira Sans Condensed", sans-serif;
 }
