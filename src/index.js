@@ -40,7 +40,7 @@ function displayWeatherCondition(response) {
 
   celsiusTemperature = response.data.main.temp;
 
-  dateElement.innerHTML = formatDate(response.data.dt * 1000);
+  dateElement.innerHTML = formatHours(response.data.dt * 1000);
   cityElement.innerHTML = response.data.name;
   temperatureElement.innerHTML = Math.round(celsiusTemperature);
   humidityElement.innerHTML = response.data.main.humidity;
@@ -80,12 +80,12 @@ function getCurrentLocation(event) {
 }
 
 let form = document.querySelector("#search-form");
-form.addEventListener("Submit", handleSubmit);
+form.addEventListener("submit", handleSubmit);
 
 let currentButton = document.querySelector("#current");
 currentButton.addEventListener("click", getCurrentLocation);
 
-function dispalyForecast(response) {
+function displayForecast(response) {
   let forecastElement = document.querySelector("#forecast");
   forecastElement.innerHTML = null;
   let forecast = null;
