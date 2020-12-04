@@ -40,7 +40,7 @@ function displayWeatherCondition(response) {
 
   celsiusTemperature = response.data.main.temp;
 
-  dateElement.innerHTML = formatHours(response.data.dt * 1000);
+  dateElement.innerHTML = formatDate(response.data.dt * 1000);
   cityElement.innerHTML = response.data.name;
   temperatureElement.innerHTML = Math.round(celsiusTemperature);
   humidityElement.innerHTML = response.data.main.humidity;
@@ -94,7 +94,7 @@ function displayForecast(response) {
     forecast = response.data.list[index];
     forecastElement.innerHTML += `
     <div class="col-2">
-      <h3>
+      <h3> 
         ${formatHours(forecast.dt * 1000)}
       </h3>
       <img
