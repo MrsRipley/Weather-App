@@ -28,7 +28,7 @@ h3 {
   padding: 10px 20px;
   margin: 30px auto;
   border-radius: 5px;
-  max-width: 60%;
+  max-width: 40%;
 }
 
 .temperature {
@@ -107,7 +107,7 @@ h3 {
 #forecast h3 {
   font-size: 20px;
   margin: 0 auto;
-  padding-left: 20px;
+  padding: 0 30px;
 }
 #forecast weather-forecast-temperature {
   display: block;
